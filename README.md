@@ -71,7 +71,7 @@
 
 #### Project 2 MVP requirements
 
-- Create a `<NumberButton />` component that can accept `props` and display any number/symbol passed down as `text`.
+[x] Create a `<NumberButton />` component that can accept `props` and display any number/symbol passed down as `text`.
   - Example your component should be able to render a dynamic prop called text:
   - Your button button should also be able to accept dynamic props `buttonStyle` for styling
 
