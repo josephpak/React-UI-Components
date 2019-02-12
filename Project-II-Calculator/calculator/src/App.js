@@ -23,7 +23,7 @@ const App = () => {
         <CalculatorDisplay />
       </div>
       <div className="row">
-        <ActionButton action={actions.clear} buttonStyles="defaultStyles"/>
+        <ActionButton action={actions.clear} buttonStyles="bigStyles"/>
         <ActionButton action={actions.divide} buttonStyles="defaultStyles"/>
       </div>
       <div className="row">
@@ -45,7 +45,7 @@ const App = () => {
         <ActionButton action={actions.add} buttonStyles="defaultStyles" />
       </div>
       <div className="row">
-        <NumberButton number={numbers[0]} buttonStyles="defaultStyles" />
+        <NumberButton number={numbers[0]} buttonStyles="bigStyles" />
         <ActionButton action={actions.result} buttonStyles="defaultStyles" />
       </div>
     </div>

@@ -1,8 +1,30 @@
-.defaultStyles {
+.NumberButton .defaultStyles {
     width: 115px;
-    height: 100px;
-    border: 1px solid gray;
+    height: 95px;
+    border: .2px solid #979797;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.ActionButton .defaultStyles {
+    width: 115px;
+    height: 95px;
+    border: .2px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a0001e;
+    color: white;
+}
+
+.bigStyles {
+    width: 345px;;
+    height: 95px;
+    border: .2px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
