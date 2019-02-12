@@ -9,13 +9,20 @@
     max-width: 89%;
     border-radius: 5px;
     margin-right: 10px;
-    width: 100%
+    width: 100%;
+    display: flex;
 }
 
 .comment, .heart, .retweet, .share {
-    max-width: 20px;
+    max-width: 25px;
     margin: 10px 15px;
 }
+
+.interaction-like {
+    display: flex;
+    align-items: center;
+}
+
 .heart {
     color: red;
 }

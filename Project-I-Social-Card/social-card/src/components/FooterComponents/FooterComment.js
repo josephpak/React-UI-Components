@@ -5,10 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function FooterComment() {
     return (
-        <FontAwesomeIcon
-            class="comment"
-            icon="comment-alt"
-        />
+        <div className="interaction">
+            <FontAwesomeIcon
+                className="comment"
+                icon="comment-alt"
+            />
+        </div>
+        
     )
 }
 

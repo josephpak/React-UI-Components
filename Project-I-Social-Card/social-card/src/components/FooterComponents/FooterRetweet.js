@@ -5,10 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function FooterRetweet() {
     return (
-        <FontAwesomeIcon
-            class="retweet"
+        <div className="interaction">
+            <FontAwesomeIcon
+            className="retweet"
             icon="retweet"
-        />
+            />
+        </div>
     )
 }
 

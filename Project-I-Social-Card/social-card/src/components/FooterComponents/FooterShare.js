@@ -5,10 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function FooterShare() {
     return (
-        <FontAwesomeIcon
-            class="share"
+        <div className="interaction">
+            <FontAwesomeIcon
+            className="share"
             icon="envelope"
-        />
+            />
+        </div>
+        
     )
 }
 
